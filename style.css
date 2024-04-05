@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigationBar{
+    height: 3rem;
+    background-color: #0f3408;
+    display: flex;
+    justify-content: space-around;
+}
+#homeHeader{
+    background-color: #007482;
+}
+#aboutTitle{
+    color: #A0CF5F;
+}
+#aboutBody{
+    color: #007482;
+}
+#homeHeader{
+    background-image: url("croppedBannerPhoto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homeTitle{
+    text-align: center;
+    font-size: 4rem;
+    height: 12rem;
+    padding: 6rem;
+    background-color: #2e31457c;
+    color: rgb(255, 255, 255);
+}
+#logo{
+    height: 100%;
+    width: 100%;
+}
+#navigationBar button{
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#navigationBar button:hover{
+    background-color: #56afb8;
+    padding: 10px;
+    height: 80%;
+}
