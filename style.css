@@ -30,6 +30,11 @@
     background-color: #2e31457c;
     color: rgb(255, 255, 255);
 }
+@media (max-width: 550px){
+    #homeTitle{
+        font-size: 3rem;
+    }
+}
 #logo{
     height: 100%;
     width: 100%;
@@ -44,4 +49,52 @@
     background-color: #56afb8;
     padding: 10px;
     height: 80%;
+}
+#homeContent{
+    display: flex;
+    height: 15rem;
+    width: 100%;
+}
+#homeContent div{
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px 10px;
+}
+#homeContent div h2{
+    font-size: 2rem;
+}
+#sub{
+    padding: 50px 0px 0px;
+}
+#whoTitle{
+    padding: 50px 15px 10px;
+}
+#homeSecondContent{
+    padding: 20px 20px;
+    display: flex
+    
+}
+#homeSecondContent div h2{
+    padding: 0px 0px 10px;
+}
+#images{
+    width:100%;
+    padding: 10px 15px;
+    display: flex;
+
+}
+#longImg{
+    width: 30%; 
+    height: 50%;
+}
+#stack{
+    display: flex;
+    flex-direction: column
+}
+#stack img{
+    width: 95%;
+    height: 44%;
+}
+#imgPrompt{
+    padding: 10px 15px;
 }
