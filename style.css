@@ -118,3 +118,30 @@
 #stories{
     padding: 10px;
 }
+/*What has been added since the last commit*/
+
+#projectImg{
+    margin: 10px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#projectImg img{
+    width: 100%;
+    height: 30%;
+}
+#projectTitle{
+    padding: 60px 20px;
+    font-size: 2rem;
+}
+#projectBody{
+    padding: 0px 20px 70px;
+}
+#allImg{
+    display: flex;
+}
+#allImg div {
+    width: 25%;
+    height: 70%;
+}
